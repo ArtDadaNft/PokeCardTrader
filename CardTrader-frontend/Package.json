@@ -1,1 +1,36 @@
-
+{
+  "name": "cardtrader-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",      // Per le richieste HTTP
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",  // Per il routing
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",   // Avvia il server di sviluppo
+    "build": "react-scripts build",   // Compila l'app per la produzione
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
