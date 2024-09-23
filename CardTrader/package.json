@@ -1,0 +1,23 @@
+{
+  "name": "cardtrader-backend",
+  "version": "1.0.0",
+  "description": "Backend for CardTrader project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",    // Per avviare il server Node.js
+    "dev": "nodemon server.js"    // Per lo sviluppo, se usi Nodemon per il live reload
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",          // Per hashing delle password
+    "cors": "^2.8.5",            // Per abilitare le richieste CORS
+    "dotenv": "^10.0.0",         // Per le variabili d'ambiente
+    "express": "^4.17.1",        // Framework web
+    "jsonwebtoken": "^8.5.1",    // Per l'autenticazione tramite token JWT
+    "mongoose": "^5.12.13"       // ODM per MongoDB
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"          // Per il riavvio automatico del server durante lo sviluppo
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
